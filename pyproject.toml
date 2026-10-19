@@ -1,0 +1,20 @@
+[project]
+name = "agentlab"
+version = "1.0.0"
+description = "Tool-using LLM agent with an evaluation harness"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
