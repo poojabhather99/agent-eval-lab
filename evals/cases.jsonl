@@ -1,0 +1,15 @@
+{"id": "calc_multiply", "question": "What is 17 * 23?", "expected": 391, "match": "number", "expected_tools": ["calculator"]}
+{"id": "calc_parens", "question": "Compute (125 + 75) / 8", "expected": 25, "match": "number", "expected_tools": ["calculator"]}
+{"id": "calc_power", "question": "What is 2 ** 10?", "expected": 1024, "match": "number", "expected_tools": ["calculator"]}
+{"id": "calc_sqrt", "question": "What is the square root of 144?", "expected": 12, "match": "number", "expected_tools": ["calculator"]}
+{"id": "convert_km_mi", "question": "Convert 10 km to miles", "expected": 6.2137, "match": "number", "tolerance": 0.02, "expected_tools": ["unit_convert"]}
+{"id": "convert_f_c", "question": "Convert 100 fahrenheit to celsius", "expected": 37.78, "match": "number", "tolerance": 0.02, "expected_tools": ["unit_convert"]}
+{"id": "convert_kg_lb", "question": "Convert 5 kg to lb", "expected": 11.02, "match": "number", "tolerance": 0.02, "expected_tools": ["unit_convert"]}
+{"id": "convert_mi_km", "question": "Convert 26.2 miles to km", "expected": 42.16, "match": "number", "tolerance": 0.05, "expected_tools": ["unit_convert"]}
+{"id": "kb_annual_leave", "question": "How many days of annual leave do employees get?", "expected": 24, "match": "number", "expected_tools": ["kb_search"]}
+{"id": "kb_manager_limit", "question": "What is the expense approval limit for managers?", "expected": 5000, "match": "number", "expected_tools": ["kb_search"]}
+{"id": "kb_remote", "question": "How many days per week can employees work remotely?", "expected": 3, "match": "number", "expected_tools": ["kb_search"]}
+{"id": "multi_leave_weeks", "question": "How many weeks of annual leave do employees get? Round to one decimal.", "expected": 3.4, "match": "number", "tolerance": 0.05, "expected_tools": ["kb_search", "calculator"]}
+{"id": "multi_limit_thousands", "question": "What is the manager expense approval limit in thousands of USD?", "expected": 5, "match": "number", "tolerance": 0.01, "expected_tools": ["kb_search", "calculator"]}
+{"id": "multi_notice_weeks", "question": "How many weeks is the standard notice period? Round to one decimal.", "expected": 4.3, "match": "number", "tolerance": 0.05, "expected_tools": ["kb_search", "calculator"]}
+{"id": "multi_sick_pct", "question": "What percentage of the annual leave allowance is the sick leave allowance?", "expected": 50, "match": "number", "tolerance": 0.5, "expected_tools": ["kb_search", "calculator"]}
