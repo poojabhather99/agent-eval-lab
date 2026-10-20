@@ -1,6 +1,8 @@
 # agent-eval-lab: A Tool-Using LLM Agent and Its Evaluation Harness
 
 [![CI](https://github.com/poojabhather99/agent-eval-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/poojabhather99/agent-eval-lab/actions/workflows/ci.yml)
+
+**Live demo (runs in your browser):** https://poojabhather99.github.io/agent-eval-lab/
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 
 A small, dependency-light implementation of a ReAct-style agent (the model reasons, calls a tool, reads the observation, repeats) together with an evaluation harness that measures whether the agent actually gets tasks right. The point of the project is the second half: **agents should be measured, not eyeballed.**
